@@ -1,6 +1,7 @@
 import React from "react";
+//**COMPONENTE PRESENTACIONAL**
 
-const Cupcake = (props) => {
+/* const Cupcake = (props) => {
     return(
         <>
         <div className="cupcake-item">
@@ -12,6 +13,23 @@ const Cupcake = (props) => {
         </div>
         </>
     )
-}//Cupcake
+}//Cupcake */
+
+
+//**COMPONENTE DE CLASE**/
+class Cupcake extends React.Component {
+    render(){
+        return(
+            <div className="cupcake-item">
+            <img className="cupcake-img" src={this.props.foto} alt={`Cupcake ${this.props.color}`}/>
+            <h2 className="cupcake-title">{this.props.nombre}</h2>
+            <p className="cupcake-description">{`Sabor: ${this.props.sabor}`}</p>
+            <p className="cupcake-price">{this.props.precio}</p>
+            <button className="cupcake-btn">Comprar</button>
+        </div>
+        );
+    }
+}
+
 
 export default Cupcake;
