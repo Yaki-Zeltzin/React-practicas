@@ -74,3 +74,7 @@ text-align: center;
     margin-left: 30px;
     margin-bottom: 20px;
 }
+
+.vendido{
+    filter: grayscale(1);
+}
