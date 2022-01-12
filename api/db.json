@@ -1,0 +1,22 @@
+{
+    "cupcakes":[
+        {
+            "sabor": "Vainilla",
+            "color": "amarillo",
+            "descripción": "Gran cupcake sabor vainilla clásica",
+            "precio": 10
+        },
+        {
+            "sabor": "Chocolate",
+            "color": "marron",
+            "descripción": "Gran cupcake sabor chocolate clásico",
+            "precio": 15
+        },
+        {
+            "sabor": "Fresa",
+            "color": "rojo",
+            "descripción": "Gran cupcake sabor Fresa clásico",
+            "precio": 20
+        }
+    ]
+}
