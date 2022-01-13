@@ -1,22 +1,104 @@
 {
     "cupcakes":[
         {
+            "id": 1,
             "sabor": "Vainilla",
             "color": "amarillo",
             "descripción": "Gran cupcake sabor vainilla clásica",
-            "precio": 10
+            "precio": 10,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
         },
         {
+            "id": 2,
             "sabor": "Chocolate",
             "color": "marron",
             "descripción": "Gran cupcake sabor chocolate clásico",
-            "precio": 15
+            "precio": 15,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+
         },
         {
+            "id": 3,
             "sabor": "Fresa",
             "color": "rojo",
             "descripción": "Gran cupcake sabor Fresa clásico",
-            "precio": 20
+            "precio": 20,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id": 4,
+            "sabor": "Vainilla",
+            "color": "amarillo",
+            "descripción": "Gran cupcake sabor vainilla clásica",
+            "precio": 10,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id": 5,
+            "sabor": "Chocolate",
+            "color": "marron",
+            "descripción": "Gran cupcake sabor chocolate clásico",
+            "precio": 15,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+
+        },
+        {
+            "id": 6,
+            "sabor": "Fresa",
+            "color": "rojo",
+            "descripción": "Gran cupcake sabor Fresa clásico",
+            "precio": 20,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id": 7,
+            "sabor": "Vainilla",
+            "color": "amarillo",
+            "descripción": "Gran cupcake sabor vainilla clásica",
+            "precio": 10,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id": 8,
+            "sabor": "Chocolate",
+            "color": "marron",
+            "descripción": "Gran cupcake sabor chocolate clásico",
+            "precio": 15,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+
+        },
+        {
+            "id": 9,
+            "sabor": "Fresa",
+            "color": "rojo",
+            "descripción": "Gran cupcake sabor Fresa clásico",
+            "precio": 20,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id": 10,
+            "sabor": "Vainilla",
+            "color": "amarillo",
+            "descripción": "Gran cupcake sabor vainilla clásica",
+            "precio": 10,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+        },
+        {
+            "id": 11,
+            "sabor": "Chocolate",
+            "color": "marron",
+            "descripción": "Gran cupcake sabor chocolate clásico",
+            "precio": 15,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
+
+        },
+        {
+            "id": 12,
+            "sabor": "Fresa",
+            "color": "rojo",
+            "descripción": "Gran cupcake sabor Fresa clásico",
+            "precio": 20,
+            "image": "https://t1.rg.ltmcdn.com/es/images/8/8/6/img_cupcakes_quequitos_33688_paso_4_600.jpg"
         }
     ]
 }

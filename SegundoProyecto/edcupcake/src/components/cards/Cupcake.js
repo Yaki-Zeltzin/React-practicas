@@ -6,7 +6,7 @@ const Cupcake =  ({
     precio
 }) => {
     return(
-        <div>
+        <div className="s-radius-1 s-shadow-bottom background s-shadow-card-micro white-color s-pxy-2">
             <img src={image} alt={sabor}/>
             <p>{description}</p>
             <span>Color: {color}</span>
