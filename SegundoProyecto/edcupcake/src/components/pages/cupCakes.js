@@ -33,7 +33,7 @@ const Cupcakes = ({peticion, title}) => {
                        {cupcakes.map(({
                            id,
                            image,
-                           description,
+                           descripcion,
                            color,
                            sabor,
                            precio
@@ -41,7 +41,7 @@ const Cupcakes = ({peticion, title}) => {
                        <Cupcake 
                        key={id}
                        image={image}
-                       description={description}
+                       descripcion={descripcion}
                        color={color}
                        sabor={sabor}
                        precio={precio}/>
