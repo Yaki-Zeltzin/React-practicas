@@ -1,10 +1,14 @@
-import { get } from "axios";
-import { useEffect, useState } from "react";
+// import { get } from "axios";
+// import { useEffect, useState } from "react";
+import useFetch from "../../hooks/useFetch";
 import Cupcake from "../cards/Cupcake";
 
 const Cupcakes = ({peticion, title}) => {
 
-    const[cupcakes, setCupcakes] = useState();
+    const [cupcakes] = useFetch(peticion);
+
+    //**SE REMPLAZA ESTE CÓDIGO POR EL HOOK USEFETCH**/
+    // const[cupcakes, setCupcakes] = useState();
 
     //**PETICION CON FETCH**
     // useEffect(()=>{
@@ -15,10 +19,10 @@ const Cupcakes = ({peticion, title}) => {
     // },[peticion])
 
     //**PETICION CON AXIOS**/
-    useEffect(()=>{
-        get(`${process.env.REACT_APP_URL_API}${peticion}`)
-            .then(data => setCupcakes(data.data))
-        },[peticion])
+    // useEffect(()=>{
+    //     get(`${process.env.REACT_APP_URL_API}${peticion}`)
+    //         .then(data => setCupcakes(data.data))
+    //     },[peticion]);
 
     return(
         <div className="ed-grid">
@@ -46,7 +50,7 @@ const Cupcakes = ({peticion, title}) => {
                ): <span>Cargando...</span>
             }
         </div>
-    )
+    );
 }//Cupcakes
    
 
