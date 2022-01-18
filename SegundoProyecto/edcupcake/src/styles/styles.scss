@@ -1,2 +1,30 @@
 @import "ed-grid";
 @import "~edteam-style-guides/edteam-style-guides";
+
+.cupcake-img{
+    width: 220px;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.cupcake-btn{
+    background-color: rgb(46, 45, 46);
+    width: 160px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.vendido{
+    filter: grayscale(1);
+}
+
+.header{
+    text-align: center;
+}
